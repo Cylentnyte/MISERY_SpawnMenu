@@ -182,7 +182,7 @@ local weapons_table = {
 						"pri_a17_gauss_rifle",
 						
 						"wpn_aek973",
-						"wpn_ak74m",
+						"wpn_ak47m",
 						"wpn_ak105",
 						"wpn_aks74_cobra",
 						"wpn_aps",
