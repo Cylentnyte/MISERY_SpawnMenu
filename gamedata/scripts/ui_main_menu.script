@@ -184,13 +184,19 @@ end
 
 function main_menu:OnButton_load_spawn()
 	if self.spawn_dlg == nil then
-		self.spawn_dlg = ui_spawn_dialog.spawn_dialog()
+		-- Spawn Menu Mod
+		--self.spawn_dlg = ui_spawn_dialog.spawn_dialog()
+		self.spawn_dlg = ui_si.spawn_item_dialog()
+		-- End Spawn Menu Mod
 		self.spawn_dlg.owner = self
 	end
 
 	self.spawn_dlg:ShowDialog(true)
 	self:HideDialog()
-	self:Show(false)
+	-- Spawn Menu Mod
+	--self:Show(false)
+	self:Show(true)
+	-- End Spawn Menu Mod
 end
 
 function main_menu:OnButton_save_clicked()

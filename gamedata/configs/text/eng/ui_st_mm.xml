@@ -933,4 +933,9 @@
 	<string id="ui_mm_confirm_changes">
 		<text>Apply changes? All changes will be reverted in</text>
 	</string>
+	<!-- Start Spawn Menu Mod --> 
+	<string id="ui_mm_spawntext">
+		<text>Spawn Menu</text>
+	</string>
+	<!-- End Spawn Menu Mod --> 
 </string_table>
