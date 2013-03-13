@@ -202,7 +202,7 @@ local weapons_table = {
 						"wpn_m16a1",
 						"wpn_m21",
 						"wpn_m24",
-						"wpn_1891",
+						"wpn_m1891",
 						"wpn_mossberg",
 						"wpn_obrez",
 						"wpn_oc33",
